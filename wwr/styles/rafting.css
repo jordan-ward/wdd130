@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=platypi-serif');
+
+:root {
+    --primary-color: #007ea7;
+    --secondary-color: #05204A;
+    --accent1-color: #B4E1FF;
+    --accent2-color: #5E8C61;
+
+    --heading-font: 'platypi', serif;
+    --paragraph-font: 'sedan', serif;
+
+    --nav-background-color: #495159;
+    --nav-link-color: #95D9C3;
+    --nav-hover-link-color: #A7FFF6;
+    --nav-hover-background-color: #6D696A;
+}
+
+.hero img {
+    position: relative;
+    left: 30px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero > h1 {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+
+
+article img {
+  float: right;
+  right: 30px;
+  display: block;
+  width: 50%;
+  height: auto;
+  }
+
+.article > P {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  font-size: 18px;
+  }

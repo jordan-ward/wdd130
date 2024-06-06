@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=platypi-serif');
+
+:root {
+    --primary-color: #007ea7;
+    --secondary-color: #05204A;
+    --accent1-color: #B4E1FF;
+    --accent2-color: #5E8C61;
+
+    --heading-font: 'platypi', serif;
+    --paragraph-font: 'sedan', serif;
+
+    --nav-background-color: #495159;
+    --nav-link-color: #95D9C3;
+    --nav-hover-link-color: #A7FFF6;
+    --nav-hover-background-color: #6D696A;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    font-family: var(--heading-font);
+}
+
+nav a {
+    display: inline-block;
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+body {
+    background-color: white;
+}
+
+div {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+}
+
+.hero img {
+    display: block;
+    width: 80%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: var(--heading-font);
+    z-index: 3;
+    transform: translate(-50%, -50%);
+}
+
+.employee img {
+    display: block;
+    width: 10%;
+    height: auto;
+    position: absolute;
+    float: right;
+    z-index: 3;
+}
+
+
+
