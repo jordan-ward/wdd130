@@ -1,22 +1,31 @@
+:root {
+    --heading-background-color: steelblue;
+    --heading-text-color: white;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgba(0,0,0,0.1):
+
+}
+
 nav {
-    background-color: steelblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--heading-text-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: steelblue;
+    color: var(--heading-background-color);
 }
 
 main img {
     width: 150px;
     height:auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--heading-background-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
