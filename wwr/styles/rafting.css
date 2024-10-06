@@ -1,0 +1,63 @@
+:root {
+    --div-primary-color : F4E8C1
+    --div-secondary-color : 91C4F2
+    --div-accent1-color : 837A75
+    --div-accent2-color : 0B3948
+    --div-heading-font : font-family: "Roboto", sans-serif; font-weight: 700; font-style: normal;
+    --text-font : font-family: "Roboto", sans-serif; font-weight: 400; font-style: normal;
+    --padding : 1rem;
+    --border : 1px solid rgba(0,0,0,0.1):
+}
+
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.rocks {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.heading1 {
+    top: 10px;
+    left: 20px;
+    right: 20px;
+    position: absolute;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.5);
+    color: var(--primary-color);
+    z-index: auto;
+}
+
+
+
+article {
+    display: inline-block;
+    top: 200px;
+    right: 30px;
+    width: 630px;
+    height: auto;
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.client {
+    float: right;
+}
+
