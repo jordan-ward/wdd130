@@ -18,6 +18,22 @@
 a {
     color: var(--secondary-color);
     text-decoration: none;
+    background-color: #eeee;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    grid-gap: 15px;
+    background-color: #F4E8C1;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .hero {
@@ -43,8 +59,6 @@ a {
     z-index: auto;
 }
 
-
-
 article {
     display: inline-block;
     top: 200px;
@@ -60,4 +74,67 @@ article {
 .client {
     float: right;
 }
+section {
+    background-color: #F4E8C1;
+}
 
+.history {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.history-para {
+    grid-column: 2/5;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;  
+}
+
+h2 {
+    grid-column: 3/6;
+}
+
+figure {
+    border: thin #837A75 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+.river .beach .calm .raft .rapid {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #0B3948;
+    color: #F4E8C1;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4E8C1;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.facebook .x .instagram {
+    margin: 0 auto;
+    padding: 5px;
+}
