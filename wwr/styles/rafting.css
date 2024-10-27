@@ -29,7 +29,7 @@ nav {
     position: relative;
 }
 
-.rocks {
+.rocks, .group-rapid {
     display: block;
     width: 100%;
     height: auto;
@@ -64,7 +64,7 @@ article {
     float: right;
 }
 section {
-    background-color: #F4E8C1;
+    background-color: white;
 }
 
 .history {
@@ -130,7 +130,7 @@ footer {
 }
 
 main {
-    background-color: #F4E8C1;
+    background-color: white;
     margin: 0 auto;
     padding: 0.5rem;
 }
@@ -152,7 +152,204 @@ main {
     justify-content: center;
 }
 
-form {
+.contact-us {
     grid-column: 1/6;
     padding: 10px;
+}
+
+.heading1-index {
+    top: 10px;
+    left: 20px;
+    right: 20px;
+    position: absolute;
+    font-size: 2em;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    z-index: auto;
+}
+
+.incentive{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 10px;
+}
+
+.call1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.call-heading1 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.call2 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.call-link {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    padding: 10px;
+}
+
+.purpose {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding: 10px;
+}
+
+.offers {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding: 10px;
+}
+
+.trip-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trip1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.trip2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.trip3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.peru {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 10px;
+    text-align: center;
+}
+
+.snake {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10px;
+    text-align: center;
+}
+
+.lazy {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.trip1-desc {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 10px;
+    text-align: center;
+}
+
+.trip2-desc {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 10px;
+    text-align: center;
+}
+
+.trip3-desc {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    padding: 10px;
+    text-align: center;
+}
+
+.trip-contact {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trip-contact-heading {
+    grid-column: 4/6;
+    grid-row: 1/2;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.trip-contact-desc {
+    grid-column: 4/6;
+    grid-row: 2/3;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.contact-link {
+    grid-column: 4/6;
+    grid-row: 3/4;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-size: 1rem;
+}
+
+thead {
+    background-color:  lightblue;
+}
+
+th, td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
 }
