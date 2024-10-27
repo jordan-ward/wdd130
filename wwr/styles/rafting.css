@@ -220,7 +220,7 @@ main {
 }
 
 .offers {
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 1/2;
     padding: 10px;
 }
